@@ -1,5 +1,7 @@
 # Firefight-Corona-Map
-Diese Karte zeigt die aktuellen 7-Tages Inzidenzen/100k Einwohner für einzelne Landkreise
+Eine Karte, die die aktuellen 7-Tages Inzidenzen/100k Einwohner für einzelne Landkreise anzeigt
+![Beispiel Karte](https://github.com/nordcomputer/Firefight-Corona-Map/blob/main/corona-map.png?raw=true)
+
 
 ## Installation
 - Entweder die Repository in ein Verzeichnis auf einem Webserver klonen 
