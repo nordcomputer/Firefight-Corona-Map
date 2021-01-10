@@ -73,6 +73,7 @@ require([
       content:
         "{cases7_per_100k_txt} Neu-Infizierte auf 100.000 Einwohner in den letzten 7 Tagen",
       fieldInfos: []
+
     }
   });
 
@@ -92,6 +93,7 @@ require([
     new Legend({
       view: view
     }),
-    "top-right"
+    "bottom-left"
+
   );
 });
