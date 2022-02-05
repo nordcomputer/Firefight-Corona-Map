@@ -16,9 +16,6 @@ require([
     }
   };
 
-
-
-
   const renderer = {
     type: "simple", // autocasts as new SimpleRenderer()
     symbol: defaultSym,
@@ -26,17 +23,17 @@ require([
     visualVariables: [
       {
         type: "color",
-        field: "cases7_per_100k",
+        field: 'cases7_per_100k',
+       
         stops: [
           {
             value: 0,
-            color: "#FFFFFF",
-            label: "0"
+            color: "#FFFFFF"
           },
           {
-            value: 301,
-            color: "#8b0000",
-            label: ">300"
+            value: 3000,
+            color: "#8b0000"
+            
           }
         ]
       }
@@ -72,7 +69,9 @@ require([
       title: "{COUNTY}",
       content:
         "{cases7_per_100k_txt} Neu-Infizierte auf 100.000 Einwohner in den letzten 7 Tagen",
-      fieldInfos: []
+      fieldInfos: [],
+
+      
 
     }
   });
